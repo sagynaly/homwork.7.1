@@ -5,4 +5,6 @@ public abstract class Hero implements HavingSuperAbility{
     private String hp;
 
 
+    public Hero(int health, int damage) {
+    }
 }
