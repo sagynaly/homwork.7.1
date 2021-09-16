@@ -9,9 +9,9 @@ public class Main {
         Hero[] superHero = {warrior, magic, medic};
 
         for (int i = 0; i < superHero.length; i++) {
-            superHero[0].applySuperAbility("Warrior применил суперспособность CRITICAL DAMAGE");
-            superHero[1].applySuperAbility("Magic применил суперспособность LIGHT SNIPE");
-            superHero[2].applySuperAbility("Medic применил суперспособность HEALTH DAMAGE");
+            superHero[i].applySuperAbility("Warrior применил суперспособность CRITICAL DAMAGE");
+          /*  superHero[i].applySuperAbility("Magic применил суперспособность LIGHT SNIPE");
+            superHero[i].applySuperAbility("Medic применил суперспособность HEALTH DAMAGE");*/
             break;
         }
     }
